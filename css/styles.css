@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family:і"Roboto",sans-serif;
     background-color: #FFFFFF;
     color: #434455;
     font-weight: 400;
@@ -48,15 +48,22 @@ address:focus
         color: white;
 }
 
-button {
+.button {
     font-family:inherit;
+    font-weight:500;
+    line-height:1.5;
+    letter-spacing: 0.04em;
     color:white;
     cursor:pointer;
     background:#4D5AE5;
 }
+.button:hover,
+.button:focus{
+    background-color:#404BBF;
+}
 
 .features-subtitle{
-         font-weight:500;
+        font-weight:500;
         font-size:20px;
         line-height:1.2;
         letter-spacing:0.02em;
@@ -97,13 +104,21 @@ button {
     color:#434455;
 }
 
+.portfolio{
+    background-color: #F4F4FD;
+}
 .portfolio-title{
         font-weight:700;
         font-size:36px;
         line-height:1.11;
         letter-spacing:0.02em;
         text-align:center;
+        text-transform: capitalize;
         color:#2E2F42;
+}
+
+.portfolio-list{
+background-color: #FFFFFF;
 }
 
 .portfolio-name{
@@ -134,28 +149,30 @@ footer{
         color:#F4F4FD;
 }
 
-.accent{
-    font-weight:700;
-    font-size:18px;
-    line-height:1.17;
-    letter-spacing:0.03em;
-    text-transform:uppercase;
-    color:#4D5AE5;
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
-.logo-footer{
-    font-weight:700;
-    font-size:18px;
-    line-height:1.17;
-    letter-spacing:0.03em;
-    text-transform:uppercase;
-    color:#F4F4FD;
-}
-.logo-header{
+.accent-header{
     font-weight:700;
     font-size:18px;
     line-height:1.17;
     letter-spacing:0.03em;
     text-transform:uppercase;
     color:#2E2F42;
-    }
+}
+.accent-footer{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
