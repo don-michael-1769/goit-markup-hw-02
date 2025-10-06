@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-. menu{
+.menu{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -35,8 +35,11 @@ address:focus
 { 
     color: #4D5AE5;
 }
+.hero{
+    background-color: #2E2F42;
+}
 
-. hero-title{
+.hero-title{
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -44,3 +47,115 @@ address:focus
         text-align: center;
         color: white;
 }
+
+button {
+    font-family:inherit;
+    color:white;
+    cursor:pointer;
+    background:#4D5AE5;
+}
+
+.features-subtitle{
+         font-weight:500;
+        font-size:20px;
+        line-height:1.2;
+        letter-spacing:0.02em;
+        color:#2E2F42;
+}
+
+.features-text{
+        font-weight:400;
+        font-size:16px;
+        line-height:1.5;
+        letter-spacing:0.02em;
+        color:#434455;
+}
+
+.team-title{
+        font-weight:700;
+        font-size:36px;
+        line-height:1.11;
+        letter-spacing:0.02em;
+        text-align: center;
+        color:#2E2F42;
+}
+.team-member-name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing:0.02em;
+        text-align: center;
+        color:#2E2F42;
+}
+
+.team-position{
+    font-weight:400;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    text-align:center;
+    color:#434455;
+}
+
+.portfolio-title{
+        font-weight:700;
+        font-size:36px;
+        line-height:1.11;
+        letter-spacing:0.02em;
+        text-align:center;
+        color:#2E2F42;
+}
+
+.portfolio-name{
+          font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color:#2E2F42;
+}
+
+.portfolio-type{
+        font-weight:400;
+        font-size:16px;
+        line-height:1.5;
+        letter-spacing:0.02em;
+        color:#434455;
+}
+
+footer{
+    background:#2E2F42;
+}
+
+.footer-text{
+        font-weight:400;
+        font-size:16px;
+        line-height:1.5;
+        letter-spacing: 0.02em;
+        color:#F4F4FD;
+}
+
+.accent{
+    font-weight:700;
+    font-size:18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    color:#4D5AE5;
+}
+
+.logo-footer{
+    font-weight:700;
+    font-size:18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    color:#F4F4FD;
+}
+.logo-header{
+    font-weight:700;
+    font-size:18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    color:#2E2F42;
+    }
