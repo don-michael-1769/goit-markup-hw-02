@@ -1,8 +1,11 @@
 body {
-    font-family: "Roboto" "Raleway", sans-serif;
-    background-color: FFFFFF;
+    font-family: "Roboto", "Raleway", sans-serif;
+    background-color: #FFFFFF;
     color: #434455;
-    Weight: Regular Size: 16px line-height: 1.5 letter-spacing: 2%; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 ul li {
@@ -19,7 +22,7 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-. address{
+ address{
    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -27,8 +30,8 @@ a {
         color: inherit;
 }
 
-. address .contacts :hover,
-. address .contacts :focus
+address:hover,
+address:focus
 { 
     color: #4D5AE5;
 }
