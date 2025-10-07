@@ -22,18 +22,29 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
- address{
-   font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: inherit;
+.menu-link{
+    color:#2e2f42;
 }
 
-address:hover,
-address:focus
+.menu-link:hover,
+.menu-link:focus{
+    color: #404bbf;
+}
+
+ .contacts{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+    font-style: normal;
+    color: #434455;
+}
+
+.contacts:hover,
+.contacts:focus
 { 
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .hero{
     background-color: #2E2F42;
@@ -62,6 +73,9 @@ address:focus
     background-color:#404BBF;
 }
 
+.features-list{
+    background-color: #FFFFFF;
+}
 .features-subtitle{
         font-weight:500;
         font-size:20px;
