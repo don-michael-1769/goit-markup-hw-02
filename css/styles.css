@@ -30,6 +30,9 @@ a {
 .menu-link:focus{
     color: #404bbf;
 }
+.contacts{
+    font-style: normal
+}
 
  .contacts-item{
     font-weight: 400;
