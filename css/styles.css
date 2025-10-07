@@ -31,7 +31,7 @@ a {
     color: #404bbf;
 }
 
- .contacts{
+ .contacts-item{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -41,8 +41,8 @@ a {
     color: #434455;
 }
 
-.contacts:hover,
-.contacts:focus
+.contacts-item:hover,
+.contacts-item:focus
 { 
     color: #404bbf;
 }
@@ -104,7 +104,7 @@ a {
         text-transform: capitalize;
         color:#2E2F42;
 }
-.team-list{
+.team-item{
     background-color:#FFFFFF;
 }
 .team-member-name{
